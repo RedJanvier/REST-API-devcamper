@@ -8,7 +8,8 @@
     "func-names": "off",
     "class-methods-use-this": "off",
     "no-unpublished-require": "off",
-    "node/no-unpublished-require": "off"
+    "node/no-unpublished-require": "off",
+    "no-process-exit": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2018

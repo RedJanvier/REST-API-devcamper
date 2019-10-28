@@ -1,11 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
+const CONNECTDB = require('./config/db');
 const bootcampsRouter = require('./routes/bootcamps.js');
 
-dotenv.config({ path: './config/config.env' });
-
 const app = express();
+dotenv.config({ path: './config/config.env' });
+CONNECTDB();
 
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
