@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('../app');
+// const { getBootcamps } = require('../controllers/bootcamps');
 
 describe('GET /api/v1/bootcamps ', () => {
   it('displays bootcamps', done => {
