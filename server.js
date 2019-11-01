@@ -18,3 +18,5 @@ process.on('unhandledRejection', err => {
   console.log(`Error: ${err.message}`);
   listener.close(() => process.exit(1));
 });
+
+module.exports = server;
