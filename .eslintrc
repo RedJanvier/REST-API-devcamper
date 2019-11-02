@@ -9,7 +9,8 @@
     "class-methods-use-this": "off",
     "no-unpublished-require": "off",
     "node/no-unpublished-require": "off",
-    "no-process-exit": "off"
+    "no-process-exit": "off",
+    "consistent-return": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2018
